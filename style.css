@@ -1,0 +1,346 @@
+body{
+	background-color: #65ba97;
+	min-width: 310px;
+	/*overflow:hidden;*/
+	overflow:scroll;
+    overflow-x:hidden;
+    font-family: DokChampa, Calibri;
+}
+
+.cards{
+
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-size: 4em;
+}
+
+.card1{
+	background-color: #75d7ae;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+.card2{
+	background-color: #65ba97;
+	height:50%;
+	width:100%;
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+	text-align: center;
+}
+
+.card3-1{
+	background-color: #75d7ae;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 5.45rem;
+	padding-bottom: 5.45rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card3-2{
+	background-color: #65ba97;
+	height:100%;
+	width:100%;
+	padding-top: 5.45rem;
+	padding-bottom: 5.45rem;
+	text-align: center;
+}
+
+.card1 h2,.card2 h2, .card3-1 h2, .card3-2 h2, .card1-noimage h2, .card2-noimage h2{
+	color:white;
+	font-size: 4em;
+}
+
+.card1-noimage{
+	background-color: #75d7ae;
+	position:relative;
+	padding-top: 17rem;
+	padding-bottom: 17rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card2-noimage{
+	background-color: #65ba97;
+	padding-top: 17rem;
+	padding-bottom: 17rem;
+	text-align: center;
+}
+
+.cards a{
+	text-decoration: none;
+
+}
+
+.cards img{
+	 width: 150px;
+	 height: 150px;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width:385px;
+	height:150px;
+}
+
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabecalho img{
+	width:150px;
+	height:150px;
+}
+
+.botao {
+	text-align:center
+}
+
+button{
+	height: 5rem;
+	width: 30rem;
+	text-align:center;
+	font-size: 2.5rem;
+	border-radius: 0.8rem;
+	margin-bottom: 2rem;
+	background-color: #ebf0ea;
+}
+
+.videos{
+
+}
+
+form{
+	background-color: #ebf0ea;
+	padding: 1rem 2rem 5rem 2rem;
+	color:#65ba97;
+	margin-bottom: 4rem;
+	font-size: 3rem;
+	margin:1rem 1rem 3rem 1rem;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+
+form input[type=radio]{
+	width:10rem;
+	height: 3rem;
+	font-size: 2.5rem;
+}
+
+input[type=text]{
+	width:54rem;
+	height: 3rem;
+	font-size: 2.5rem;
+	border-radius: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #65ba97;
+
+}
+
+form p {
+	font-size: 3rem;
+	height: 2rem;
+}
+
+form select {
+	width:54rem;
+	height: 3rem;
+	border-radius: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #65ba97;
+}
+
+.projeto{
+	text-align: center;
+	color:white;
+	font-size: 2.5rem;
+}
+.projeto img{
+	width:58rem;
+	height:43rem;
+}
+.share {
+	background-color: #75d7ae;
+	font-size: 3.1rem;
+	color:white;
+	text-align: center; 
+	margin: 8rem 10rem 0rem 10rem;
+	padding: 0.2rem 0 4rem 0;
+	border-radius: 1rem;
+}
+
+.share.um{
+	margin: 4rem 10rem 0rem 10rem;
+	padding: 0.2rem 0 4rem 0;
+	border-radius: 1rem;
+}
+.share img{
+	margin: 1rem 1rem 1rem 1rem;
+	width: 5rem;
+	height: 5rem;
+}
+
+.share.um img{
+	margin: 1rem 1rem 0rem 1rem;
+	width: 5rem;
+	height: 5rem;
+}
+
+.motivos{
+	color:white;
+	text-align: justify;
+	padding: 0 2rem 0 2rem;
+}
+
+.motivos h3{
+	font-weight: bold;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.motivos p{
+	line-height: 1.5rem;
+}
+
+.motivos img{
+	width:15rem;
+	height:15rem;
+	justify-content: center;
+}
+
+.motivo{
+	margin:2rem 0 2rem 0;
+	border-radius: 1rem;
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+.motivo.um {
+	background-color: #9765ba;
+}
+
+.motivo.dois{
+	background-color: #d0cb49;
+}
+
+.motivo.tres{
+	background-color: #e97768;
+}
+
+.row{
+	display:flex;
+}
+
+.col-md-4{
+	width:30%;
+}
+
+.col-md-8{
+	width:70%;
+	padding-top: 2rem;
+	font-size:4rem;
+}
+
+
+.cidade{
+	width:50%;
+}
+
+.cidade input[type=text]{
+	width:25rem;
+	height: 3rem;
+}
+
+.bairro input[type=text]{
+	width:27rem;
+	height: 3rem;
+}
+
+.bairro{
+	width:50%;
+}
+
+.upload {
+	border-color: white;
+	border-radius: 3rem;
+	margin: 1rem 1rem 1rem 1rem;
+	border-style: dotted;
+	color:white;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	margin-top: 15rem;
+}
+
+.upload img{
+	width: 15rem;
+	height: 15rem;
+}
+
+.botao2{
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.botao2 button{
+	height: 5rem;
+	width: 20rem;
+	text-align:center;
+	font-size: 2.5rem;
+	border-radius: 0.8rem;
+	margin-bottom: 2rem;
+	background-color: #ebf0ea;
+}
+
+.aviso{
+	background-color: white;
+	padding: 25rem 2rem 25rem 2rem;
+	margin: 20rem 5rem 5rem 5rem;
+	text-align: center;
+	color:#65ba97;
+	border-radius: 5rem;
+	font-size: 2rem;
+}
+
+.videorow {
+	color:white;
+	text-align: center;
+	border-radius: 2rem;
+	padding: 2rem 2rem 2rem 2rem;
+	margin: 2rem 1rem 4rem 1rem;
+}
+
+.videos.col-8 {
+	margin-top: 4rem;
+}
+
+.videorow.um{
+	background-color: #9765ba;
+}
+
+.videorow.dois{
+	background-color: #e97768;
+}
+
+
+.col-4 {
+	padding: 2rem 2rem 2rem 2rem;
+	text-align: justify;
+}
+
+.form1{
+	margin-top:15rem;
+	text-align: center;
+}
